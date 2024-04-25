@@ -8,6 +8,16 @@ nota2=int(input("Digite sua segunda nota: "))
 
 media=float((nota1+nota2)/2)
 os.system("clear")
-print(f"Nome: {nome}")
-print(f"Idade: {idade}")
-print(f"Media: {media}")
+
+if media<7:
+    print(f"Nome: {nome}")
+    print(f"Idade: {idade}")
+    print(f"Media: {media}")
+    print(f"Você está reprovado")
+
+else:
+    print(f"Nome: {nome}")
+    print(f"Idade: {idade}")
+    print(f"Media: {media}")
+    print(f"Você está aprovado")
+
