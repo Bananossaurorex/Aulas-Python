@@ -7,7 +7,9 @@ while nota<0 or nota>10:
         nota = int(input(f"Digite a {i+1}º nota:"))
         soma=int(soma+nota)
         if nota<0 or nota>10:
+            os.system ("clear")
             print("Tente novamente")
+            soma=0
             break
 media=int(soma/3)
 print(f"Media: {media}")
